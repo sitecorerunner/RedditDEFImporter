@@ -34,7 +34,7 @@ namespace Sitecore.DEF.RedditImport.Processors.PipelineSteps
                     "Creating Reddit items for: " + redditSettings.BlogPath);
                 RedditFeed(pipelineContext, redditSettings.BlogPath);
                     pipelineContext.PipelineBatchContext.Logger.Info(
-                    "Done Reddit items for: " + redditSettings.BlogPath);
+                    "Done creating Reddit items for: " + redditSettings.BlogPath);
             }
         }
         private void RedditFeed(PipelineContext pipelineContext, string blogpath)
