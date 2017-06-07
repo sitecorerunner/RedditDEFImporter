@@ -41,8 +41,8 @@ namespace Sitecore.DEF.RedditImport.Processors.PipelineSteps
         {
             var reddit = new Reddit();
             var subreddit = reddit.GetSubreddit(blogpath);
-            var dataSettings = new IterableDataSettings(subreddit.New.Take(25));
-            pipelineContext.Plugins.Add(dataSettings);
+            var redditfeedresults = new IterableDataSettings(subreddit.New.Take(25));
+            pipelineContext.Plugins.Add(redditfeedresults);
         }
     }
 }
