@@ -145,3 +145,7 @@ src/Feature/RedditImport/bin/System.Diagnostics.TraceSource.dll
 src/Feature/RedditImport/bin/System.Diagnostics.Tools.dll
 src/Feature/RedditImport/bin/System.Diagnostics.TextWriterTraceListener.dll
 src/Feature/RedditImport/bin/System.Diagnostics.StackTrace.dll
+src/Feature/RedditImport/.vs/config/applicationhost.config
+src/Feature/RedditImport/.vs/Sitecore.DEF.RedditImport/v15/Server/sqlite3/storage.ide
+src/Feature/RedditImport/.vs/Sitecore.DEF.RedditImport/v15/Server/sqlite3/db.lock
+src/Feature/RedditImport/.vs/Sitecore.DEF.RedditImport/v15/.suo
