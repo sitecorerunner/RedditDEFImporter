@@ -4,7 +4,7 @@ VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{62FC124B-B86C-42B9-AC69-802A6A4E147A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.DEF.RedditImport", "RedditImport\Sitecore.DEF.RedditImport.csproj", "{DFC07B76-6EF3-4DD0-96A8-02C52E471C1C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.DEF.RedditImport", "src\Feature\RedditImport\Sitecore.DEF.RedditImport.csproj", "{DFC07B76-6EF3-4DD0-96A8-02C52E471C1C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
