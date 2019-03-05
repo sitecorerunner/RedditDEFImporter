@@ -6,7 +6,6 @@ using Sitecore.DataExchange.DataAccess;
 using Sitecore.DataExchange.DataAccess.Readers;
 using Sitecore.DataExchange.DataAccess.Writers;
 using Sitecore.DataExchange.Repositories;
-using Sitecore.DEF.RedditImport.Converters.DataAccess.Reader;
 using Sitecore.DEF.RedditImport.Models.ItemModels.DataAccess;
 using Sitecore.Services.Core.Model;
 

@@ -1,5 +1,4 @@
-﻿using System;
-using Sitecore.DataExchange.Attributes;
+﻿using Sitecore.DataExchange.Attributes;
 using Sitecore.DataExchange.Converters.PipelineSteps;
 using Sitecore.DataExchange.Models;
 using Sitecore.DataExchange.Plugins;
