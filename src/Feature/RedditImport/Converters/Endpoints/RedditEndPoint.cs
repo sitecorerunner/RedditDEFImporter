@@ -11,20 +11,13 @@ namespace Sitecore.DEF.RedditImport.Converters.Endpoints
     [SupportedIds("{844E82BD-816F-4ABA-97F4-F15CC3204590}")]
     public class RedditEndPoint: BaseEndpointConverter
     {
-        //private static readonly Guid TemplateId = Guid.Parse("{844E82BD-816F-4ABA-97F4-F15CC3204590}");
-        //public RedditEndPoint(IItemModelRepository repository) : base(repository)
-        //{
-        //    this.SupportedTemplateIds.Add(TemplateId);
-        //}
-
         public RedditEndPoint(IItemModelRepository repository) : base(repository)
         {
         }
 
         protected override void AddPlugins(ItemModel source, Endpoint endpoint)
         {
-            var settings = new RedditSettings();
-            settings.BlogPath = base.GetStringValue(source, "Blog Path");
+            var settings = new RedditSettings {BlogPath = base.GetStringValue(source, "Blog Path")};
 
             endpoint.AddPlugin(settings);
         }

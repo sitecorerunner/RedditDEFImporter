@@ -12,12 +12,6 @@ namespace Sitecore.DEF.RedditImport.Converters.PipelineSteps
     [SupportedIds("{CE67E73A-40DF-4AB7-A7D3-2FD65E166E2E}")]
     public class RedditEndpointConverter : BasePipelineStepConverter
     {
-        //private static readonly Guid TemplateId = Guid.Parse("{CE67E73A-40DF-4AB7-A7D3-2FD65E166E2E}");
-        //public RedditEndpointConverter(IItemModelRepository repository) : base(repository)
-        //{
-        //    this.SupportedTemplateIds.Add(TemplateId);
-        //}
-
         public RedditEndpointConverter(IItemModelRepository repository) : base(repository)
         {
         }
